@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".OptionActivity">
+
+
+    <Button
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/roundshape"
+        android:textColor="#FFFFFF"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Control with Phone"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/gesture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phone"
+        android:text="Control with Gesture"
+        android:textColor="#FFFFFF"
+        android:shadowColor="#A8A8A8"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:background="@drawable/roundshape"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"/>
+
+</android.widget.RelativeLayout>

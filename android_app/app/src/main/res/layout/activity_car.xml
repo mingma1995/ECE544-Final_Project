@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".CarActivity">
+
+    <TextView
+        android:layout_marginTop="120dp"
+        android:layout_centerHorizontal="true"
+        android:text="Drive the Car"
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/up"
+        android:layout_marginTop="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ic_up_arrow"/>
+    <Button
+        android:id="@+id/left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/up"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/ic_left_arrow"/>
+
+    <Button
+        android:id="@+id/right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/up"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/ic_right_arrow"/>
+    <Button
+        android:id="@+id/down"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/left"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ic_arrow_down_sign_to_navigate"/>
+
+
+
+</android.widget.RelativeLayout>
