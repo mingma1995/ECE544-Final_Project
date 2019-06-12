@@ -41,9 +41,9 @@ module n4fpga(
 );
 
 // internal variables
-wire               ext_uart_rxd;	//Entra uart to send and receive signals from NodeMCU32
+wire               ext_uart_rxd;	//Extra uart used to receive control signal.
 wire               ext_uart_txd;
-wire               ext_uart2_rxd;
+wire               ext_uart2_rxd;	//Extra uart used to send reset signal.
 wire               ext_uart2_txd;
 wire               echo_front;	//Front distance sensor echo port
 wire               trig_front;	//Front distance sensor trig port
